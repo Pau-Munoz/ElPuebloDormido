@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Ciudadano implements Batalla {
+abstract class Ciudadano implements Batalla {
     protected String nombre;
     protected int poblacion;
     private int CONTADOR = 1;
